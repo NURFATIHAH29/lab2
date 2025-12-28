@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us | FutureTech Solutions</title>
+    <link href="bootstrap.min (1).css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">FutureTech Solutions</a>
+            <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="services.html">Services</a>
+                <a class="nav-link active" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2>Contact Us</h2>
+        <form class="mt-4">
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Full Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control is-valid" value="FutureTech Client">
+                    <div class="valid-feedback">Looks good!</div>
+                </div>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                <label for="floatingEmail">Email Address</label>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Inquiry Details</label>
+                <textarea class="form-control" rows="3" placeholder="How can we help you?"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label d-block">Urgency Level</label>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="urgency" id="low" checked>
+                    <label class="form-check-label" for="low">Normal</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="urgency" id="high">
+                    <label class="form-check-label" for="high">Urgent</label>
+                </div>
+            </div>
+
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="terms">
+                <label class="form-check-label" for="terms">I agree to the privacy policy</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+        </form>
+    </div>
+</body>
+</html>
